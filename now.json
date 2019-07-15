@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "chit-chat-app",
+    "name": "chit-chat-client",
     "builds": [
       {
         "src": "package.json",
