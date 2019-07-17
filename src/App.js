@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import logo from './logo.svg';
 import './App.css';
 
-const socket = io('http://localhost:3000');
+const socket = io('http://121.254.173.45:3333');
 
 function App() {
   const [text, setText] = useState('');
