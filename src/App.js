@@ -3,8 +3,7 @@ import io from 'socket.io-client';
 import Lobby from './Lobby';
 import './App.css';
 
-export const socket = io('http://localhost:3333');
-// const socket = io('http://121.254.173.45:3333');
+export const socket = io('https://mysterious-mesa-27210.herokuapp.com/');
 
 function App() {
   const [username, setUsername] = useState('');

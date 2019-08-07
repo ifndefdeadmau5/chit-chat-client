@@ -42,6 +42,7 @@ function ChatRoom({ room }) {
           ))}
         </ul>
       </header>
+      <button>Back</button>
     </div>
   );
 }
